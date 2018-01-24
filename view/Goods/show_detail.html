@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p>{$goods['goods_name']}</p>
+	<p>{$goods['goods_price']}</p>
+	{foreach $file as $img_path}
+		<img src="{$img_path}" alt='' width='100px' height='100px' class='image' style='margin-left:10px'>
+	{/foreach}
+</body>
+</html>
