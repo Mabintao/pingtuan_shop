@@ -1,5 +1,5 @@
-<?php
-	
+﻿<?php
+	//對方接受警方
 	include "init.php";   //引入专门初始化的文件
 // fork一下下
 	
